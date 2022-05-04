@@ -1,0 +1,65 @@
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.registration__button {
+  margin-top: 50px;
+  padding: 0;
+  background-image: url("../img/registation.svg");
+  background-color: #f3f1fb;
+  background-repeat: no-repeat;
+  width: 39px;
+  background-size: cover;
+}
+
+.hi__user {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.registration__pop_up {
+  display: none;
+  margin-top: 20px;
+  flex-direction: column;
+  width: 594px;
+  height: 344px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+  gap: 30px;
+}
+
+.registration__pop_up > p {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-weight: 700;
+}
+
+.registration__pop_up > input {
+  margin: 0 auto;
+  width: 300px;
+  height: 30px;
+  padding-left: 16px;
+  background-color: #f3f1fb;
+  border: none;
+  border-radius: 16px;
+  font-size: 12px;
+}
+
+.footer__pop-up_buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.put__registration {
+  background: #dc3545;
+}
+

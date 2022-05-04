@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/registration.css" />
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <header class="header">
+      <button class="registration__button"></button>
+      
+    </header>
+    <main class="main">
+      <h1>ToDo List</h1>
+      <div class="checklist__form">
+        <div class="input_and_button">
+          <input
+            class="input__add_task"
+            type="text"
+            placeholder="Сделать"
+            required
+          />
+          <button class="button__add_task">Добавить</button>
+        </div>
+        <div class="check__list_block"></div>
+        <div class="toDo__footer">
+          <button class="delete__done">Удалить завершенные</button>
+          <button class="delete__all">Удалить все</button>
+        </div>
+      </div>
+    </main>
+    <section class="registration__pop_up">
+      <p>РЕГИСТРАЦИЯ НОВОГО ПОЛЬЗОВАТЕЛЯ</p>
+      <input class="put__name" type="text" placeholder="Введите имя" />
+      <input class="put__password" type="password" placeholder="Введите пароль" />
+      <div class="footer__pop-up_buttons">
+        <button class="cansel">Отменить</button>
+        <button class="put__registration">Зарегистрировать</button>
+      </div>
+    </section>
+    <script src="./js/toDoApp.js"></script>
+    <script src="./js/registration.js"></script>
+  </body>
+</html>
